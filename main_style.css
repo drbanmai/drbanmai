@@ -2,3 +2,12 @@
     padding: 0.5em;
     height: auto;
 }
+
+.button-image{
+    width: 15em;
+    height: 5em;
+}
+
+.button-spacing{
+    padding:0.1em;
+}

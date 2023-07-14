@@ -19,225 +19,244 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <div class="container-fluid">
-                <ul class="nav nav-pills">
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">LOGO HERE</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">General</a></li>
-                        <li><a class="dropdown-item" href="#">Diet</a></li>
-                        <li><a class="dropdown-item" href="#">Diabete</a></li>
-                        <li><a class="dropdown-item" href="#">After Care</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        <li><a class="dropdown-item" href="Test\Doctor Website.html">CLICK HERE</a></li>
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="LOGO" style="width: 5em;" class="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <form class="d-flex me-auto">
+                        <input class="form-control me-2" type="text" placeholder="Not Working Yet">
+                        <button class="btn btn-info" type="button">Search</button>
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="auto">
+                            <a class="nav-link btn btn-warning" type="button" href="#">Contact Us</a>
+                        </li>
                     </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">CONTACT HERE</a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">General</a></li>
-                        <li><a class="dropdown-item" href="#">Care</a></li>
-                        <li><a class="dropdown-item" href="#">Illness</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">SEARCH HERE?</a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dietary</a></li>
-                        <li><a class="dropdown-item" href="#">Raising a Child</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        </ul>
-                    </li>
-                    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">GAME :]</a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dietary</a></li>
-                        <li><a class="dropdown-item" href="#">Raising a Child</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
-                <ul class="nav nav-pills">
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Mother and Child</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">General</a></li>
-                        <li><a class="dropdown-item" href="#">Diet</a></li>
-                        <li><a class="dropdown-item" href="#">Diabete</a></li>
-                        <li><a class="dropdown-item" href="#">After Care</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        <li><a class="dropdown-item" href="Test\Doctor Website.html">CLICK HERE</a></li>
-                    </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Biology Issues</a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">General</a></li>
-                        <li><a class="dropdown-item" href="#">Care</a></li>
-                        <li><a class="dropdown-item" href="#">Illness</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Family</a>
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Dietary</a></li>
-                        <li><a class="dropdown-item" href="#">Raising a Child</a></li>
-                        <li><a class="dropdown-item" href="#">Myths</a></li>
-                        </ul>
-                    </li>                 
-                </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
+        <!--The 3 buttons-->
         <div class="container-fluid">
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="row">
+                <div class="col-sm-4 button-spacing">
+                    <div class="dropdown">
+                        <div type="button" class="" data-bs-toggle="dropdown">
+                            <img src="Button01.png" alt="button-image" class="w-100">
+                        </div>
+                        
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">Common Info</a></li>
+                            <li><a class="dropdown-item" href="#">Diet</a></li>
+                            <li><a class="dropdown-item" href="#">Myths</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 button-spacing">
+                    <div class="dropdown">
+                        <div type="button" class="" data-bs-toggle="dropdown">
+                            <img src="Button02.png" alt="button-image" class="w-100">
+                        </div>
+                        
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">Common Info</a></li>
+                            <li><a class="dropdown-item" href="#">Pain</a></li>
+                            <li><a class="dropdown-item" href="#">Myths</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 button-spacing">
+                    <div class="dropdown">
+                        <div type="button" class="" data-bs-toggle="dropdown">
+                            <img src="Button03.png" alt="button-image" class="w-100">
+                        </div>
+                        
+                        <ul class="dropdown-menu w-100">
+                            <li><a class="dropdown-item" href="#">Common Info</a></li>
+                            <li><a class="dropdown-item" href="#">Diet</a></li>
+                            <li><a class="dropdown-item" href="#">Myths</a></li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>          
+        </div>
+
+        <div style="height: 1em;"></div>
+
+        <!--The Carousel / Banner-->
+        <div class="container">
+            <div id="banner" class="carousel slide" data-bs-ride="carousel">
 
                 <!-- Indicators/dots -->
                 <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-                  <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
                 </div>
               
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="tiger01.jpg" alt="Los Angeles" class="d-block w-100">
+                    <div class="carousel-item active">
+                        <a href=""><img src="Banner01.png" alt="Banner Info" class="d-block w-100"></a>                        
                     <div class="carousel-caption">
-                        <h3>Tiger</h3>
-                        <p>COOL CAT, MAN</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="tiger02.jpg" alt="Chicago" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>Tiger</h3>
-                        <p>EXQUISITE FUR</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="tiger03.jpg" alt="New York" class="d-block w-100">
-                    <div class="carousel-caption">
-                        <h3>Tiger</h3>
-                        <p>WHAT LOTION DID YOU USE?</p>
-                      </div>
+                        <h3>Click for more info</h3>
+                    </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href=""><img src="Banner02.png" alt="Banner 02" class="d-block w-100"></a>                       
+                        <div class="carousel-caption">
+                            <h3>Click for more info</h3>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <a href=""><img src="Banner03.png" alt="Banner 03" class="d-block w-100"></a>
+                        <div class="carousel-caption">
+                            <h3>Click for more info</h3>
+                        </div>
                   </div>
                 </div>
               
                 <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
+                <button class="carousel-control-prev" type="button" data-bs-target="#banner" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
+                <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
                 </button>
-              </div>
+            </div>
+        </div>
 
+        <div style="height: 3em;"></div>
+
+        <!--The Main Body-->
+        <div class="container-fluid"> 
             <div class="row">
-                <div class="col-sm-2 grid-box"><div class="grid-box border border-5">
+                <div class="col-sm-2 grid-box"><div class="grid-box border border-1">
+                    <b>New Articles:</b>
+                    <ul>
+                        <li><a href="">Cherry</a></li>
+                        <li><a href="">Apple</a></li>
+                        <li><a href="">Lemon</a></li>
+                        <li><a href="">Uranium</a></li>
+                    </ul> 
                     <b>Key Topics:</b>
                     <ul>
-                        <li><a href="">Obesity and Pregnacy</a></li>
-                        <li><a href="">Abortion: Reasons and Effects</a></li>
-                        <li><a href="">Supplementary is not a Necessity</a></li>
-                        <li><a href="">Myths from Folk Remedy</a></li>
-                    </ul>   
+                        <li><a href="">Obesity & Pregnacy</a></li>
+                        <li><a href="">Abortion</a></li>
+                        <li><a href="">Supplementary</a></li>
+                        <li><a href="">Folk Remedy</a></li>
+                    </ul> 
+                    <b>Tools:</b>
+                    <ul>
+                        <li><a href="">BMI Calculator</a></li>
+                        <li><a href="">Birthdate</a></li>
+                        <li><a href="">Calorie</a></li>
+                        <li><a href="">La La La</a></li>
+                    </ul> 
                 </div></div>
 
                 <div class="col-sm-10">
+                    <div class="grid-box"><div class="row grid-box border border-1">
+                        <h1>Welcome</h1>
+                            <h5>
+                                <p>This is a website for Dr. Dawn to share knowledge for soon-to-be parents 
+                                and anyone that is curious about Homo Sapiens multiplication mechaninism.</p>
+                                
+                                <p>Most of the articles here will come with funny pictures to explain tho concepts, 
+                                no that anyone con follow along</p>
+                                
+
+                                <p>Disclaimer: most of the information presented here, even though it is based on 
+                                real work experiences, in watered down so that readers can got the gist of the 
+                                idea. Reading stuff on the internet and applying it in real life are different 
+                                matters. As such, it is highly recommended to seek professional help.</p>
+
+                                <p>Luckily, we do have a clinic <a href="">here</a></p>
+                            </h5>
+                    </div></div>
+
                     <div class="row">
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">
+                            <h1>Obesity and Pregnancy</h1>
                             <h5>
                                 Although the mother needs nutrition for her and the baby,
                                 it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                lead to unwanted outcomes. 
                             </h5>
                         </div></div>
 
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">                  
+                            <h1>Bored? Play some games :]</h1>
                             <h5>
-                                Although the mother needs nutrition for her and the baby,
-                                it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                Made by the guy who made this website and every images in it :]
                             </h5>
                         </div></div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">
+                            <h1>Obesity and Pregnancy</h1>
                             <h5>
                                 Although the mother needs nutrition for her and the baby,
                                 it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                lead to unwanted outcomes. 
                             </h5>
                         </div></div>
 
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">                  
+                            <h1>Bored? Play some games :]</h1>
                             <h5>
-                                Although the mother needs nutrition for her and the baby,
-                                it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                Made by the guy who made this website and every images in it :]
                             </h5>
                         </div></div>
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">
+                            <h1>Obesity and Pregnancy</h1>
                             <h5>
                                 Although the mother needs nutrition for her and the baby,
                                 it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                lead to unwanted outcomes. 
                             </h5>
                         </div></div>
 
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
+                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">                  
+                            <h1>Bored? Play some games :]</h1>
                             <h5>
-                                Although the mother needs nutrition for her and the baby,
-                                it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
-                            </h5>
-                        </div></div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
-                            <h5>
-                                Although the mother needs nutrition for her and the baby,
-                                it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
+                                Made by the guy who made this website and every images in it :]
                             </h5>
                         </div></div>
 
-                        <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-5">
-                            <h1>Obesity and Pregnancy</h6>
-                            <h5>
-                                Although the mother needs nutrition for her and the baby,
-                                it is not a good idea to overeat. Health complications can 
-                                lead to unwanted outcomes, even death. 
-                            </h5>
-                        </div></div>
+                        <div class="row">
+                            <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">
+                                <h1>Obesity and Pregnancy</h1>
+                                <h5>
+                                    Although the mother needs nutrition for her and the baby,
+                                    it is not a good idea to overeat. Health complications can 
+                                    lead to unwanted outcomes. 
+                                </h5>
+                            </div></div>
+    
+                            <div class="col-md-6 col-12 grid-box"><div class="grid-box border border-1">                  
+                                <h1>Bored? Play some games :]</h1>
+                                <h5>
+                                    Made by the guy who made this website and every images in it :]
+                                </h5>
+                            </div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -246,7 +265,33 @@
     </main>
 
     <footer>
+        <div class="container-fluid bg-dark text-light">
+            Usually just a place to repeat everything:
 
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="">Home Page</a><br>
+                    <a href="">About Us</a><br>
+                    <a href="">Moms & Babies</a><br>
+                    <a href="">Sexual Organs</a><br>
+                    <a href="">Diet</a><br>
+                </div>
+                <div class="col-sm-4">
+                    <a href="">BMI</a><br>
+                    <a href="">Birthdate</a><br>
+                    <a href="">Calorie</a><br>
+                    <a href="">La La La</a><br>
+                    <a href="">Don Dawn</a><br>
+                </div>
+                <div class="col-sm-4">
+                    <a href=""></a><br>
+                    <a href=""></a><br>
+                    <a href=""></a><br>
+                    <a href=""></a><br>
+                    <a href="secret.html">Secret Cave >:)</a><br>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
